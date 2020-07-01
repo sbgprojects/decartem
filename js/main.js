@@ -3,6 +3,10 @@ $("#bars").on('click', function () {
     $("#drawer-nav").toggleClass("active");
     $("#bars").toggleClass("close");
 })
+$("#up").on('click', function () {
+    $("#drawer-nav").toggleClass("active");
+    $("#bars").toggleClass("close");
+})
 
 
 

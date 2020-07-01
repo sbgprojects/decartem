@@ -95,7 +95,10 @@ nav .nav-link.contact-us{
     transition: 1s ease;
     padding: 2rem 0;
     border-top: 3.5px solid var(--primary-color);
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); */
+    box-shadow: var(--blue-shadow);
+    background: white;
+    z-index: 2;
 }
 .drawer-nav.active{
     top: 60px;

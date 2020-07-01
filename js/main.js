@@ -57,3 +57,35 @@ function flashing() {
 
 flashing();
 // End type writing
+
+
+
+
+/*-------------------------------*/
+/* product slider writing 
+/*-------------------------------*/
+$('.vertical-slider').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    infinite: true,
+    centerMode: true,
+    centerPadding: '0%',
+    vertical: true,
+    verticalSwiping: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    focusOnSelect: true,
+    prevArrow: ".vertical-slider-wrapper .slider-btn .prev",
+    nextArrow: ".vertical-slider-wrapper .slider-btn .next",
+    asNavFor: '.horizontal-slider',
+});
+$('.horizontal-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    asNavFor: '.vertical-slider',
+    dots: true,
+    focusOnSelect: true,
+    vertical: true,
+    verticalSwiping: true,
+});

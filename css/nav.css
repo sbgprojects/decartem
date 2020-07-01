@@ -1,0 +1,124 @@
+/* ---------------------------------------------------------------------- */
+/* style navigation bar starts */
+/* ---------------------------------------------------------------------- */
+nav{
+    /* border: 1px solid; */
+    background: white;
+}
+nav *{
+    color: var(--dark-color) !important;
+}
+nav .nav-link{
+    margin: 0 0.5rem;
+}
+nav .nav-link.contact-us{
+    background: var(--primary-color);
+    color: white !important;
+    border-radius: 5px;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.nav-toggles{
+    margin-left: 1rem;
+}
+.nav-toggles i{
+    font-size: 18px;
+    color: #333 !important;
+}
+
+
+/* make bars */
+.bars{
+    height: 20px !important;
+    width: 20px !important;
+    margin: auto !important;
+    width: 20px;
+    align-items: flex-start !important;
+    position: relative;
+}
+.bars div{
+    margin: 0;
+    background: var(--dark-color);
+    border-radius: 20px !important;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    transition: 0.5s ease;
+}
+.bars div:nth-child(1){
+    top: 2px;
+    width: 60%;
+}
+.bars div:nth-child(2){
+    top: 50%;
+    transform: translateY(-0%);
+    width: 40%;
+}
+.bars div:nth-child(3){
+    bottom: 0;
+    width: 100%;
+}
+
+.bars:hover div:nth-child(1){
+    width: 40%;
+}
+.bars:hover div:nth-child(2){
+    width: 100%;
+}
+.bars:hover div:nth-child(3){
+    width: 60%;
+}
+
+.bars.close div:nth-child(1){
+    transform: rotate(45deg);
+    width: 100%;
+    top: 45%;
+}
+.bars.close div:nth-child(2){
+    visibility: hidden;
+    opacity: 0;
+}
+.bars.close div:nth-child(3){
+    transform: rotate(-45deg);
+    width: 100%;
+    bottom: 45%;
+}
+
+
+/* drawer nav */
+.drawer-nav{
+    position: absolute;
+    top: -500px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s ease;
+    padding: 2rem 0;
+    border-top: 3.5px solid var(--primary-color);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+.drawer-nav.active{
+    top: 60px;
+    visibility: visible;
+    opacity: 1;
+}
+.drawer-nav h5{
+    text-transform: uppercase;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+.drawer-nav ul li{
+    list-style: none;
+    color: var(--gray-color);
+    margin-top: 0.5rem;
+}
+.drawer-nav ul li:hover,
+.drawer-nav ul li:focus{
+    color: var(--dark-color);
+}
+
+
+
+/* ---------------------------------------------------------------------- */
+/* style navigation bar starts */
+/* ---------------------------------------------------------------------- */

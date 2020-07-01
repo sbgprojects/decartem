@@ -1,36 +1,25 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /* varibles */
 :root{
     --body-font: 'Poppins', sans-serif;
-    --primary-heading: 'Bungee', cursive;
-    --secondary-heading: 'Montserrat', sans-serif;
-    --dark-color: #3b4a6b;
-    --primary-color: #00c4fa;
-    --secondary-color: #fff;
-    --ternary-color: #f23557;
-    --heading-size: 4rem;
-    --heading-size2: 3rem;
-    --subhead-size: 1.8rem;
-    --p-size: 1.5rem;
-    --p-size2: 1.2rem;
+    --dark-color: #1e2022;
+    --gray-color: #77838f;
+    --primary-color: #2380fb;
 }
 
 /* global styles */
-*,
-*:hover,
-*:focus{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body, html{
-    min-height: 100vh;
+    min-height: 200vh;
     font-family: var(--body-font);
     scroll-behavior: smooth;
     overflow-x: hidden;
-    font-size: 10px;
     position: relative;
 }
 .flex-center{
@@ -38,8 +27,8 @@ body, html{
     justify-content: center;
     align-items: center;
 }
-.container-fluid{
-    
+.container{
+    padding: 100px 0;
 }
 a,
 a:hover,

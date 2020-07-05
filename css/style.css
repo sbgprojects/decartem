@@ -22,7 +22,7 @@ body, html{
     min-height: 200vh;
     font-family: var(--body-font);
     scroll-behavior: smooth;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     position: relative;
 }
 .flex-center{
@@ -212,10 +212,67 @@ a:focus{
     display: none !important;
 }
 
-
+/* ===================================================================== */
+/* style aboutus */
+/* ===================================================================== */
+.aboutus{
+    /* border: 1px solid; */
+}
+.aboutus .illustration .back{
+    width: 90%;
+    position: relative;
+}
+.aboutus .illustration .security{
+    position: absolute;
+    width: 5rem;
+    left: 25%;
+    top: 10%;
+    animation: securityanimate 2s infinite;
+}
+@keyframes securityanimate{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.aboutus .content{
+    /* border: 1px solid red; */
+}
+.aboutus .content h6{
+    color: var(--gray-color);
+    position: relative;
+    margin: 0;
+    margin-left: 1.6rem;
+    font-size: 1.2rem;
+}
+.aboutus .content h6:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -1.5rem;
+    transform: translateY(-50%);
+    width: 1rem;
+    padding: 1px;
+    background: var(--primary-color);
+}
+.aboutus .content h1{
+    color: var(--dark-color);
+    margin-bottom: 1rem;
+}
+.aboutus .content p{
+    font-weight: 300;
+}
 /* ===================================================================== */
 /* style vision */
 /* ===================================================================== */
+.vision-mission{
+    background: var(--bg-light);
+}
 .vision-mission [class*=col-]{
     /* min-height: 100vh; */
 }
@@ -268,6 +325,73 @@ a:focus{
     align-items: center;
     font-size: 1.5rem;
     margin: 0;
+}
+
+/* ===================================================================== */
+/* style youtube */
+/* ===================================================================== */
+.youtube{
+    padding: 50px 0;
+}
+.youtube .heading{
+    margin: 0 1rem;
+}
+.youtube .heading h1{
+    color: var(--dark-color);
+    position: relative;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.youtube .heading h1:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2px;
+    width: 10%;
+    background: var(--primary-color);
+}
+
+.youtube .slick-dots{
+    display: none !important;
+}
+.youtube .slick-arrow{
+    cursor: pointer;
+}
+.youtube .slick-slide{
+    margin: 1rem;
+}
+.youtube .slick-slide h3{
+    margin: 1rem 1rem 0 1rem;
+    font-size: 1.3rem;
+    color: var(--dark-color);
+}
+.youtube .slick-slide p{
+    margin: 1rem;
+    font-weight: 300;
+    color: var(--gray-color);
+    font-size: 0.9rem;
+}
+.youtube .slick-slide a{
+    margin: 1rem;
+    width: 40%;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.youtube .youtube-arrow{
+    padding: 0 1rem;
+    text-align: right;
+}
+.youtube .youtube-arrow .prev{
+    color: var(--gray-color);
+}
+.youtube .youtube-arrow i{
+    font-size: 1.5rem;
+}
+.youtube .youtube-arrow .next{
+    color: var(--primary-color);
+    margin-left: 0.8rem;
 }
 
 /* ===================================================================== */

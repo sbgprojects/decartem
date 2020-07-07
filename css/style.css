@@ -274,7 +274,9 @@ a:focus{
     background: var(--bg-light);
 }
 .vision-mission [class*=col-]{
-    /* min-height: 100vh; */
+    min-height: 50vh;
+    /* border: 1px solid; */
+    position: relative;
 }
 .vision-mission h1{
     text-align: center;
@@ -286,13 +288,31 @@ a:focus{
 }
 .vision-mission .card-div{
     display: flex;
-    align-items: center;
 }
+.vision-mission .card-div:nth-child(1),
+.vision-mission .card-div:nth-child(3){
+    align-items: flex-end;
+}
+
+.vision-mission .card-div.one,
+.vision-mission .card-div.three{
+    position: absolute;
+    top: 2%;
+    width: 100%;
+}
+.vision-mission .card-div.two{
+    position: absolute;
+    bottom: 12.5%;
+    width: 100%;
+}
+.vision-mission .card-div.four{
+    position: absolute;
+    bottom: 18%;
+    width: 100%;
+}
+
 .vision-mission .card-div.left{
     text-align: right !important;
-}
-.vision-mission .card-div.one{
-    margin-bottom: 7.5rem;
 }
 .vision-mission .card-div h4{
     color: var(--primary-color);

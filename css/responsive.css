@@ -1,0 +1,205 @@
+@media screen and (max-width:1400px){
+    .vision-mission .card-div h4{
+        font-size: 1.1rem;
+    }
+    .vision-mission .card-div p{
+        font-size: 0.9rem;
+    }
+    .vision-mission .card-div.one{
+        top: 3%;
+    }
+    .vision-mission .card-div.two{
+        bottom: 14%;
+    }
+    .vision-mission .card-div.three{
+        top: 2.5%;
+    }
+    .vision-mission .card-div.four{
+        bottom: 19%;
+    }
+}
+@media screen and (max-width:1300px){
+    .vision-mission .card-div.three{
+        top: -2%;
+    }
+    .vision-mission .card-div.two{
+        bottom: 9%;
+    }
+    .vision-mission .card-div.four{
+        bottom: 20%;
+    }
+}
+@media screen and (max-width:1200px){
+    .vision-mission .card-div.one{
+        top: 0%;
+    }
+    .vision-mission .card-div.two{
+        bottom: 10%;
+    }
+    .vision-mission .card-div.three{
+        top: -1%;
+    }
+    .vision-mission .card-div.four{
+        bottom: 22%;
+    }
+}
+@media screen and (max-width:1100px){
+    .vision-mission .card-div.one{
+        top: 1%;
+    }
+    .vision-mission .card-div.two{
+        bottom: 7%;
+    }
+    .vision-mission .card-div.three{
+        top: -5%;
+    }
+    .vision-mission .card-div.four{
+        bottom: 23%;
+    }
+}
+@media screen and (max-width:1000px){
+    .vision-mission .card-div h4{
+        font-size: 1rem;
+    }
+    .vision-mission .card-div p{
+        font-size: 0.8rem;
+    }
+    .vision-mission .card-div .icon{
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+    .vision-mission .card-div.one{
+        top: 6%;
+    }
+    .vision-mission .card-div.two{
+        bottom: 15%;
+    }
+    .vision-mission .card-div.three{
+        top: 5%;
+    }
+    .vision-mission .card-div.four{
+        bottom: 25%;
+    }
+}
+@media screen and (max-width:900px){
+    .vision-mission .card-div.one{
+        top: 3%;
+    }
+    .vision-mission .card-div.two{
+        bottom: 12.5%;
+    }
+    .vision-mission .card-div.three{
+        top: -2%;
+    }
+    .vision-mission .card-div.four{
+        bottom: 26%;
+    }
+}
+@media screen and (max-width:800px){
+    .vision-mission .card-div .icon{
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    .vision-mission .card-div.one{
+        top: -1%;
+    }
+    .vision-mission .card-div.two{
+        bottom: 7.5%;
+    }
+    .vision-mission .card-div.three{
+        top: -6%;
+    }
+    .vision-mission .card-div.four{
+        bottom: 23%;
+    }
+}
+@media screen and (max-width:768px){
+    .vision-mission{
+        padding: 0 2%;
+    }
+    .vision-mission .background-div{
+        display: none;
+    }
+    .vision-mission [class*=col-]{
+        min-height: initial !important;
+        align-items: flex-start;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .vision-mission .card-div{
+        position: relative !important;
+        margin: initial !important;
+        margin-left: 0 !important;
+        margin-bottom: 3rem !important;
+    }
+    .vision-mission .card-div .icon{
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+    .vision-mission .card-div.one{
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: left !important;
+        position: relative !important;
+        top: 0 !important;
+    }
+    .vision-mission .card-div.one .icon,
+    .vision-mission .card-div.two .icon{
+        margin-right: 1rem;
+        margin-left: 0 !important;
+    }
+    .vision-mission .card-div.two{
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: left !important;
+        position: relative !important;
+        top: 0 !important;
+    }
+    .vision-mission .card-div.three{
+        align-items: center;
+        text-align: left !important;
+        position: relative !important;
+        top: 0 !important;
+    }
+    .vision-mission .card-div.four{
+        align-items: center;
+        text-align: left !important;
+        position: relative !important;
+        top: 0 !important;
+    }
+    .vision-mission .card-div h4{
+        font-size: 1.3rem;
+    }
+    .vision-mission .card-div p{
+        font-size: 1rem;
+    }
+
+    .aboutus img{
+        margin-bottom: 3rem;
+    }
+}
+@media screen and (max-width:600px){
+    .vision-mission{
+        padding: 0 0px !important;
+    }
+    .vision-mission .card-div h4{
+        font-size: 1.1rem;
+    }
+    .vision-mission .card-div p{
+        font-size: 0.9rem;
+    }
+    .vision-mission .card-div .icon{
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:500px){
+    
+}
+@media screen and (max-width:400px){
+    
+}

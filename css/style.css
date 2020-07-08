@@ -559,7 +559,7 @@ footer:after{
     left: 0;
     width: 100%;
     height: calc(100% + 6rem);
-    background: #f5faff;
+    background: #f4faff;
     clip-path: polygon(0 6rem, 100% 0, 100% 100%, 0 100%);
     z-index: -1;
 }
@@ -613,9 +613,9 @@ footer:before{
     transition: 0.3s ease;
     border: none !important;
 }
-.get-in-touch [class*=col-]:last-child button:first-child{
+/* .get-in-touch [class*=col-]:last-child button:first-child{
     background: var(--gray-color);
-}
+} */
 .get-in-touch [class*=col-]:last-child button:hover{
     transform: translateY(-3px);
     box-shadow: var(--blue-shadow);

@@ -74,7 +74,7 @@ $('.vertical-slider').slick({
     vertical: true,
     verticalSwiping: true,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
     focusOnSelect: true,
     prevArrow: ".vertical-slider-wrapper .slider-btn .prev",
     nextArrow: ".vertical-slider-wrapper .slider-btn .next",

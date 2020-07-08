@@ -190,13 +190,14 @@ a:focus{
 
 .product-overview .horizontal-slider .slick-slide{
     width: 100%;
-    min-height: 50vh;
+    min-height: 80vh;
     text-align: right;
     padding: 1rem;
 }
 .product-overview .horizontal-slider .slick-slide img{
     margin-left: auto !important;
     margin-top: 2rem;
+    width: 70% !important;
 }
 .product-overview .horizontal-slider .slick-slide h3{
     color: var(--primary-color);
@@ -452,9 +453,11 @@ a:focus{
 .testemonials .slick-slide img{
     position: absolute;
     top: 0;
-    left: 50%;
+    /* left: 50%; */
+    left: 10%;
     transform: translate(-50%, -50%);
-    width: 30%;
+    /* width: 30%; */
+    width: 120px;
     border-radius: 50%;
     padding: 0.5rem;
     background: white;
@@ -485,7 +488,7 @@ a:focus{
 /* ===================================================================== */
 .support{
     padding: 50px 0;
-    border-bottom: 3rem solid var(--bg-light);
+    /* border-bottom: 3rem solid var(--bg-light); */
 }
 .support h1{
     color: var(--dark-color);

@@ -15,9 +15,10 @@ $("#up").on('click', function () {
 /*-------------------------------*/
 var area = document.getElementById('area'),
     list = [
-        'App?',
-        'Subscription?',
-        'Design?'
+        'Security solutions.',
+        'Video Conferencing Solutions.',
+        'School Management system.',
+        'Websites.'
     ],
     count_li = 0,
     count = 0,
@@ -98,10 +99,10 @@ $('.horizontal-slider').slick({
 $('.testimonials-slider').slick({
     centerMode: true,
     centerPadding: '0',
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    // autoplaySpeed: 2000,
     infinite: true,
     responsive: [
         {
@@ -110,7 +111,7 @@ $('.testimonials-slider').slick({
                 arrows: false,
                 centerMode: true,
                 centerPadding: '0',
-                slidesToShow: 3,
+                slidesToShow: 1,
                 slidesToScroll: 1,
             }
         },

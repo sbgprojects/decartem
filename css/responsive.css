@@ -42,6 +42,35 @@
     .vision-mission .card-div.four{
         bottom: 22%;
     }
+    .product-overview .vertical-slider .slick-slide h4{
+        font-size: 1.1rem;
+        text-transform: uppercase;
+    }
+    .product-overview .vertical-slider .slick-slide p{
+        font-size: 0.9rem;
+        margin: 0;
+    }
+    .product-overview .horizontal-slider .slick-slide h3{
+        font-size: 2.5rem;
+    }
+    .product-overview .horizontal-slider .slick-slide p{
+        font-size: 0.9rem;
+    }
+    .product-overview .horizontal-slider .slick-slide{
+        min-height: 70vh;
+    }
+    .aboutus .content h1{
+        font-size: 2.5rem;
+    }
+    .aboutus .content {
+        font-size: 0.9rem;
+    }
+    .vision-mission h1{
+       font-size: 2.5rem !important;
+    }
+    .our-clients .heading h1{
+        font-size: 2.5rem;
+    }
 }
 @media screen and (max-width:1100px){
     .vision-mission .card-div.one{
@@ -80,6 +109,62 @@
     }
     .vision-mission .card-div.four{
         bottom: 25%;
+    }
+    .link-group{
+        display: none !important;
+    }
+    .bars{
+        margin-left: 1rem !important;
+    }
+    .video-box{
+        height: 20rem;
+    }
+    .video-box video{
+        width: 110% !important;
+    }
+    .hero-content h1{
+        font-size: 2.5rem;
+    }
+    .hero-content p{
+        font-size: 0.9rem;
+    }
+    .main-btn{
+        padding: 0.5rem 1.2rem;
+    }
+    .drawer-nav ul li{
+        font-size: 0.9rem !important;
+    }
+    .drawer-nav h5{
+        font-size: 1.2rem !important;
+    }
+    .aboutus .illustration .back{
+        width: 100%;
+    }
+    .aboutus .illustration .security{
+        width: 4.5rem;
+        left: 25%;
+        top: 20%;
+    }
+    .aboutus .content p{
+        font-size: 0.8rem !important;
+    }
+    .footer-content .col-one p.reg{
+        font-size: 0.9rem !important;
+    }
+    .footer-content .col-one p.reg-no{
+        font-size: 1.1rem !important;
+    }
+    .footer-content .col-one .follow-us{
+        font-size: 0.7rem;
+    }
+    .footer-content ul li{
+        font-size: 0.8rem !important;
+    }
+    footer .contact ul li{
+        font-size: 0.7rem !important;
+    }
+    .get-in-touch [class*=col-]:first-child h3{
+        font-size: 1.4rem !important;
     }
 }
 @media screen and (max-width:900px){
@@ -177,8 +262,109 @@
         font-size: 1rem;
     }
 
+    .drawer-nav ul,
+    .drawer-nav h5{
+        text-align: left !important;
+        padding: 0 20px;
+    }
+
     .aboutus img{
         margin-bottom: 3rem;
+    }
+
+    .video-div{
+        justify-content: flex-start;
+        margin-bottom: 2rem;
+    }
+    .video-box{
+        width: 60%;
+        height: 17rem !important;
+        border-radius: 2rem;
+    }
+    .video-box video{
+        width: 100% !important;
+    }
+    .vertical-slider-wrapper{
+        display: none !important;
+    }
+    
+    .product-overview .horizontal-slider .slick-dots{
+        display: flex !important;
+        justify-content: center;
+    }
+    .product-overview .horizontal-slider .slick-dots li{
+        list-style: none !important;
+    }
+    .product-overview .horizontal-slider .slick-dots li button{
+        width: 5px !important;
+        height: 5px !important;
+        font-size: 0px;
+        padding: 5px !important;
+        margin: 2rem 0.2rem 0 0.2rem;
+        border-radius: 50px;
+        border: none;
+        background: white;
+        box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.5s ease;
+        outline: none !important;
+    }
+    .product-overview .horizontal-slider .slick-dots li.slick-active button{
+        background: var(--primary-color) !important;
+        box-shadow: var(--blue-shadow);
+        width: 20px !important;
+    }
+    .product-overview .horizontal-slider .slick-slide img{
+        margin-right: auto !important;
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+    .product-overview .horizontal-slider .slick-slide{
+        text-align: left;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .aboutus .illustration{
+        justify-content: flex-start;
+    }
+    .aboutus .illustration .back{
+        width: 70%;
+        position: relative;
+        left: 0 !important;
+    }
+    .aboutus .illustration .security{
+        left: 20%;
+        top: 10%;
+    }
+    .get-in-touch [class*="col-"]:last-child,
+    .get-in-touch [class*="col-"]:first-child{
+        justify-content: center !important;
+    }
+    .get-in-touch [class*="col-"]{
+        align-items: center !important;
+    }
+    footer .contact [class*=col-]{
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0.25rem !important;
+    }
+    .testemonials .slick-slide img{
+        position: absolute;
+        top: 0;
+        /* left: 50%; */
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* width: 30%; */
+        width: 7rem;
+        border-radius: 50%;
+        padding: 0.5rem;
+        background: white;
+    }
+    .support img{
+        margin-top: 2rem;
+    }
+    .support img:first-child{
+        margin-top: 0 !important;
     }
 }
 @media screen and (max-width:600px){
@@ -198,7 +384,17 @@
     }
 }
 @media screen and (max-width:500px){
-    
+    .hero,
+    .product-overview,
+    .aboutus,
+    footer .container{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .video-box{
+        width: 70% !important;
+        height: 15rem !important;
+    }
 }
 @media screen and (max-width:400px){
     

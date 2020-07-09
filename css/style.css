@@ -143,7 +143,7 @@ a:focus{
     align-items: flex-start;
 }
 .product-overview .vertical-slider .slick-slide{
-    margin: 0.25rem 0;
+    /* margin: 0.25rem 0; */
     opacity: 0.5;
     padding: 1rem;
 }

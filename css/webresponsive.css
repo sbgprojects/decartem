@@ -1,0 +1,1063 @@
+@media screen and (max-width:1400px){
+    /* index */
+    .navigation .content a{
+        font-size: 2.5rem;
+    }
+    .navigation .graphics{
+        height: 100%;
+    }
+    .navigation .title span{
+        font-size: 13rem;
+    }
+
+    .chill-zone .container{
+        padding: 50px 20px !important;
+    }
+    .chill-zone .tik-tak-toe .board .square{
+        height: 130px;
+    }
+    .sudoku-board-cell{
+        height: 100%;
+        padding: 0.6rem;
+    }
+    .chill-zone .wrapper .wrapper-col:first-child{
+        width: 80% !important;
+        margin-left: 0 !important;
+        padding: 0 !important;
+    }
+    .chill-zone .wrapper .wrapper-col:last-child{
+        width: 10% !important;
+    }
+}
+@media screen and (max-width:1300px){
+    /* global styles */
+    .container{
+        padding: 80px !important;
+    }
+    /* title font */
+    header .container{
+        min-height: 110vh;
+    }
+    header .name{
+        top: 80px;
+    }
+    header .name .the{
+        font-size: 6.5rem;
+        margin-right: -1rem;
+        width: 9rem;
+    }
+    header .name .head-name{
+        font-size: 20rem;
+    }
+    header .name .sub-name{
+        font-size: 2rem;
+        margin-top: -2.5rem;
+    }
+    header .name .tm{
+        font-size: 1.5rem;
+        padding-top: 3rem !important;
+    }
+    header .internet{
+        left: 80px;
+    }
+    header .internet h1,
+    header .article-header h1{
+        font-size: 4rem;
+    }
+    header .internet p{
+        font-size: 2rem;
+        border-width: 4px;
+        margin-left: -1px;
+    }
+    header .article-header{
+        left: 80px;
+        bottom: 130px;
+    }
+    header .article-header:after{
+        border-width: 4px;
+    }
+    header .article-header p{
+        font-size: 1.8rem;
+    }
+
+    .team-message,
+    .team-message .row .col,
+    .team-message .row .col:nth-child(2) [class*=col]{
+        min-height: 90vh !important;
+    }
+    .team-message h2{
+        font-size: 8rem;
+    }
+    .team-message h2.first{
+        font-size: 8rem;
+    }
+    .team-message .msg,
+    .team-message .chat .chat1,
+    .team-message .chat .chat2{
+        font-size: 1.8rem;
+    }
+
+    .article .container,
+    .article .heading,
+    .article .bg{
+        min-height: 80vh !important;
+        padding: 0 !important;
+    }
+    .article .heading h1{
+        font-size: 13rem !important;
+    }
+    .article .container h2{
+        font-size: 4.3rem !important;
+    }
+    .article .container .paragraph{
+        font-size: 2.3rem;
+    }
+
+    .portfolio .col-6 h2{
+        font-size: 5rem;
+    }
+    .portfolio .col-6 h5{
+        font-size: 2.8rem;
+    }
+    .portfolio .col-6 p{
+        font-size: 1.8rem;
+    }
+    .portfolio .col-6 a{
+        font-size: 2rem;
+    }
+
+    footer h1{
+        font-size: 7rem;
+    }
+    footer .row .col p{
+        font-size: 14px;
+    }
+    footer .row .col h3{
+        font-size: 16px;
+    }
+    footer .map iframe,
+    footer .map .gmap_canvas{
+        height: 250px !important;
+    }
+}
+@media screen and (max-width:1200px){
+    .page-number{
+        font-size: 1.5rem;
+    }
+    /* index */
+    .navigation .content a{
+        font-size: 2rem;
+    }
+    .navigation .graphics{
+        height: 100%;
+    }
+    .navigation .title span{
+        font-size: 12rem;
+    }
+    .navigation .graphics .block.three{
+        height: 13%;
+        width: 100%;
+    }
+    .article .heading h1{
+        font-size: 11rem !important;
+    }
+
+    .chill-zone h1{
+        font-size: 3.5rem;
+        margin: 0 !important;
+    }
+    .chill-zone .wrapper .wrapper-col:first-child{
+        width: 80% !important;
+        padding: initial !important;
+    }
+    .chill-zone .wrapper .wrapper-col:last-child{
+        width: 20% !important;
+    }
+    .chill-zone .tik-tak-toe .board{
+        margin-top: 1.5rem !important;
+    }
+    .chill-zone .tik-tak-toe .board .square{
+        height: 125px;
+    }
+    .sudoku-board-cell{
+        padding: 0.5rem !important;
+    }
+    .chill-zone .tik-tak-toe button{
+        font-size: 1.5rem;
+    }
+    .chill-zone .wrapper-col:last-child span{
+        font-size: 12rem;
+    }
+}
+@media screen and (max-width:1100px){
+    /* global styles */
+    .container{
+        padding: 70px !important;
+    }
+    /* title font */
+    header .name{
+        top: 70px;
+    }
+    header .name .the{
+        font-size: 5.5rem;
+        margin-right: -1rem;
+        width: 9rem;
+    }
+    header .name .head-name{
+        font-size: 18rem;
+    }
+    header .name .sub-name{
+        font-size: 2rem;
+        margin-top: -2.5rem;
+    }
+    header .name .tm{
+        font-size: 1.5rem;
+        padding-top: 3rem !important;
+    }
+    header .name .tm span{
+        padding: 0.5rem;
+    }
+    .navigation.container{
+        min-height: 50vh !important;
+    }
+    .navigation .graphics{
+        display: none;
+    }
+    .navigation .content{
+        width: 100%;
+        height: 50vh !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navigation .content a{
+        font-size: 2.5rem;
+    }
+    .navigation .title span{
+        font-size: 14rem;
+    }
+
+    .team-message,
+    .team-message .row .col,
+    .team-message .row .col:nth-child(2) [class*=col]{
+        min-height: 80vh !important;
+    }
+    .team-message h2{
+        font-size: 6rem;
+    }
+    .team-message h2.first{
+        font-size: 6rem;
+    }
+    .team-message .msg,
+    .team-message .chat .chat1,
+    .team-message .chat .chat2{
+        font-size: 1.6rem;
+        padding: 2rem;
+    }
+
+    .article .container,
+    .article .heading,
+    .article .bg{
+        min-height: 70vh !important;
+        padding: 0 !important;
+    }
+    .article .heading h1{
+        font-size: 13rem !important;
+    }
+    .article .container h2{
+        font-size: 4rem !important;
+    }
+    .article .container .paragraph{
+        font-size: 2rem;
+    }
+
+    .chill-zone .wrapper .wrapper-col:last-child{
+        width: 15% !important;
+    }
+
+    .portfolio .col-4{
+        width: 50%;
+    }
+    .portfolio .col-6{
+        width: 50%;
+    }
+    .portfolio .col-6 h2{
+        font-size: 4rem;
+    }
+    .portfolio .col-6 h5{
+        font-size: 2.5rem;
+    }
+    .portfolio .col-6 p{
+        font-size: 1.5rem;
+    }
+    .portfolio .col-6 a{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:1000px){
+    .wrapper-container{
+        margin: 5rem;
+    }
+    header .container{
+        min-height: 100vh;
+    }
+    header .internet{
+        left: 70px;
+    }
+    header .internet h1,
+    header .article-header h1{
+        font-size: 3rem;
+    }
+    header .internet p{
+        font-size: 1.8rem;
+        border-width: 3px;
+    }
+    header .article-header{
+        left: 70px;
+        bottom: 120px;
+    }
+    header .article-header p{
+        font-size: 1.5rem;
+    }
+    
+    header .article-header:after{
+        border-width: 3px;
+    }
+    header .volume{
+        font-size: 1.5rem;
+        right: 70px;
+    }
+
+    footer h1{
+        font-size: 6rem;
+    }
+    footer .row .col p{
+        font-size: 12px;
+    }
+    footer .row .col h3{
+        font-size: 14px;
+    }
+
+    .chill-zone h1{
+        font-size: 3.5rem;
+        margin: 0 !important;
+    }
+    .chill-zone .tik-tak-toe .board{
+        margin-top: 0!important;
+    }
+    .chill-zone .tik-tak-toe .board .square{
+        height: 100px;
+    }
+    .sudoku-board-cell{
+        padding: 0.1rem !important;
+    }
+    .chill-zone .tik-tak-toe button{
+        font-size: 1.5rem;
+    }
+    .chill-zone .sudoku .control .show-suggestion label{
+        padding: 1rem;
+        width: 80px;
+        height: 80px;
+    }
+    .chill-zone .tik-tak-toe p,
+    .chill-zone .sudoku p{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:900px){
+    /* global styles */
+    .container{
+        padding: 60px !important;
+    }
+    /* title font */
+    header .container{
+        min-height: 90vh;
+    }
+    header .name{
+        top: 60px;
+    }
+    header .name .the{
+        font-size: 5rem;
+    }
+    header .name .head-name{
+        font-size: 16rem;
+    }
+    header .name .sub-name{
+        font-size: 1.7rem;
+        margin-top: -2rem;
+    }
+    header .name .tm{
+        font-size: 1rem;
+    }
+    header .name .tm span{
+        padding: 0.5rem;
+    }
+    header .internet{
+        left: 60px;
+    }
+    header .article-header{
+        left: 60px;
+        bottom: 110px;
+    }
+    header .volume{
+        font-size: 1.5rem;
+        right: 60px;
+        bottom: 3%;
+    }
+
+    .navigation .content a{
+        font-size: 2rem;
+    }
+    .navigation .title span{
+        font-size: 10rem;
+    }
+
+    .team-message h2{
+        font-size: 4rem;
+    }
+    .team-message h2.first{
+        font-size: 4rem;
+    }
+    .team-message .msg,
+    .team-message .chat .chat1,
+    .team-message .chat .chat2{
+        font-size: 1.5rem;
+    }
+
+    .article .container,
+    .article .heading,
+    .article .bg{
+        min-height: 70vh !important;
+        padding: 0 !important;
+    }
+    .article .bg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30%;
+        height: 100%;
+        opacity: 0.2;
+    }
+    .article .container{
+        width: 100%;
+        margin-left: 0;
+        padding: 50px !important;
+        padding-right: 0 !important;
+        justify-content: center;
+    }
+    .article .heading h1{
+        font-size: 12rem !important;
+    }
+    .article .container h2{
+        font-size: 3.4rem !important;
+        font-weight: 900 !important;
+    }
+    .article .container p{
+        font-weight: bold;
+    }
+    .article .container .paragraph{
+        font-size: 2rem;
+    }
+    footer h1{
+        font-size: 8rem;
+    }
+    footer .row{
+        flex-direction: column !important;
+    }
+    footer .row .col{
+        width: 100% !important;
+        height: initial !important;
+    }
+    footer .row .col p{
+        font-size: 16px;
+        width: 90%;
+    }
+    footer .row .col h3{
+        font-size: 18px;
+    }
+    footer .map iframe,
+    footer .map .gmap_canvas{
+        height: 300px !important;
+    }
+
+    .chill-zone .container .row{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .chill-zone .tik-tak-toe,
+    .chill-zone .sudoku{
+        width: 100%;
+        margin: 1rem 0 !important;
+        border: none !important;
+    }
+    .chill-zone .tik-tak-toe .board .square{
+        height: 160px;
+    }
+    .sudoku-board-cell{
+        padding: 1rem 2rem !important;
+    }
+    .chill-zone .tik-tak-toe button{
+        font-size: 1.8rem;
+    }
+    .chill-zone .sudoku .control .show-suggestion label{
+        padding: 1rem;
+        width: 80px;
+        height: 80px;
+    }
+    .chill-zone .tik-tak-toe p,
+    .chill-zone .sudoku p{
+        font-size: 1.4rem;
+    }
+    .portfolio{
+        padding-bottom: 10%;
+    }
+    .portfolio .row{
+        flex-direction: column;
+    }
+    .portfolio .col-4{
+        width: 100%;
+    }
+    .portfolio .col-4 .img-back{
+        max-height: 350px;
+        margin-bottom: 3rem;
+    }
+    .portfolio .col-6{
+        width: 100%;
+        text-align: left !important;
+    }
+    .portfolio .col-6 h2{
+        font-size: 4rem;
+    }
+    .portfolio .col-6 h5{
+        font-size: 3rem;
+    }
+    .portfolio .col-6 p{
+        font-size: 2rem;
+        margin: initial !important;
+        width: 100%;
+    }
+    .portfolio .col-6 a{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width:800px){
+    header .name .the{
+        font-size: 4.5rem;
+        margin-right: -1rem;
+        width: 9rem;
+    }
+    header .name .head-name{
+        font-size: 14rem;
+    }
+    header .name .sub-name{
+        font-size: 1.5rem;
+        margin-top: -1.8rem;
+        color: #ffefef;
+    }
+    header .name .tm{
+        font-size: 0.8rem;
+        padding-top: 2rem !important;
+    }
+    header .name .tm span{
+        padding: 0.5rem;
+    }
+    .team-message .msg{
+        margin-right: -5rem;
+        width: 100%;
+    }
+    .team-message .chat{
+        margin-left: -10rem;
+    }
+    .team-message .chat .chat1,
+    .team-message .chat .chat2{
+        width: 100%;
+    }
+
+    
+    footer .container{
+        padding: 30px !important;
+    }
+}
+@media screen and (max-width:700px){
+    .wrapper-container{
+        margin: 3rem;
+    }
+    /* global styles */
+    .container{
+        padding: 50px !important;
+    }
+    /* title */
+    header .name{
+        top: 50px;
+    }
+    header .internet{
+        left: 50px;
+    }
+    header .article-header{
+        left: 50px;
+        bottom: 100px;
+    }
+    header .volume{
+        font-size: 1.5rem;
+        right: 50px;
+    }
+
+    .navigation.container{
+        height: 22rem !important;
+    }
+    .navigation .content a{
+        font-size: 1.8rem;
+    }
+    .navigation .title span{
+        font-size: 8rem;
+    }
+
+    .team-message,
+    .team-message .row .col,
+    .team-message .row .col:nth-child(2) [class*=col]{
+        min-height: 70vh !important;
+    }
+    .team-message h2{
+        font-size: 4.5rem;
+    }
+    .team-message h2.first{
+        font-size: 4.5rem;
+    }
+    .team-message .msg,
+    .team-message .chat .chat1,
+    .team-message .chat .chat2{
+        font-size: 1.3rem;
+    }
+    .team-message .chat .chat1 span{
+        right: -4.5rem;
+        bottom: -1.5rem;
+    }
+    .team-message .chat .chat2 span{
+        left: -4.5rem;
+        bottom: -1.5rem;
+    }
+
+    .article,
+    .chill-zone{
+        padding-bottom: 10%;
+    }
+    .article .container,
+    .article .heading,
+    .article .bg{
+        min-height: 60vh !important;
+        padding: 0 !important;
+    }
+    .article .container{
+        padding: 20px !important;
+    }
+    .article .heading h1{
+        font-size: 10rem !important;
+    }
+    .article .container h2{
+        font-size: 3rem !important;
+        font-weight: 900 !important;
+    }
+    .article .container p{
+        font-weight: bold;
+    }
+    .article .container .paragraph{
+        font-size: 1.7rem;
+    }
+
+    footer h1{
+        font-size: 7rem;
+    }
+    footer .row .col p{
+        font-size: 14px;
+    }
+    footer .row .col h3{
+        font-size: 16px;
+    }
+    footer .map iframe,
+    footer .map .gmap_canvas{
+        height: 250px !important;
+    }
+
+    .chill-zone .container{
+        padding-bottom: 0 !important;
+    }
+    .chill-zone .tik-tak-toe .board .square{
+        height: 140px;
+    }
+    .sudoku-board-cell{
+        padding: 0.8rem 1rem !important;
+    }
+    .chill-zone .tik-tak-toe button{
+        font-size: 1.4rem;
+    }
+    .chill-zone .sudoku .control .show-suggestion label{
+        padding: 1rem;
+        width: 100px;
+        height: 100px;
+        font-size: 1.2rem;
+    }
+    .chill-zone::before{
+        width: 20rem !important;
+    }
+    .sudoku{
+        margin-bottom: 0 !important;
+    }
+
+    .portfolio .col-6 h2{
+        font-size: 4rem;
+    }
+    .portfolio .col-6 h5{
+        font-size: 2.5rem;
+    }
+    .portfolio .col-6 p{
+        font-size: 1.5rem;
+        margin: initial !important;
+        width: 100%;
+    }
+    .portfolio .col-6 a{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:600px){
+    .wrapper-container{
+        margin: 2rem;
+    }
+    /* global styles */
+    .container{
+        padding: 30px !important;
+    }
+    /* title */
+    header .name{
+        top: 30px;
+    }
+    header .name .the{
+        font-size: 3.25rem;
+        margin-right: -1.5rem;
+    }
+    header .name .head-name{
+        font-size: 10rem;
+    }
+    header .name .sub-name{
+        font-size: 1.5rem;
+        margin-top: -1.8rem;
+        color: #ffefef;
+    }
+    header .name .tm{
+        font-size: 0.8rem;
+        padding-top: 2rem !important;
+    }
+    header .name .tm span{
+        padding: 0.5rem;
+        font-weight: bold;
+    }
+    header .container{
+        min-height: 80vh;
+    }
+    header .internet{
+        left: 30px;
+    }
+    header .internet h1,
+    header .article-header h1{
+        font-size: 2.8rem;
+    }
+    header .internet p{
+        font-size: 1.5rem;
+        border-width: 3px;
+        margin-left: -1px;
+    }
+    header .article-header{
+        left: 30px;
+        bottom: 80px;
+        padding-left: 2rem;
+    }
+    header .article-header:after{
+        border-width: 3px;
+    }
+    header .article-header p{
+        font-size: 1.5rem;
+    }
+    header .volume{
+        font-size: 1.5rem;
+        right: 30px;
+    }
+
+
+    .navigation .content a{
+        font-size: 1.5rem;
+    }
+    .navigation .title span{
+        font-size: 7rem;
+    }
+
+    .chill-zone .container{
+        padding: 50px 10px 0 10px !important;
+    }
+    .chill-zone .wrapper .wrapper-col:first-child{
+        width: 80% !important;
+    }
+    .chill-zone .wrapper .wrapper-col:last-child{
+        width: 20% !important;
+    }
+    .chill-zone .tik-tak-toe .board .square{
+        height: 120px;
+    }
+    .sudoku-board-cell{
+        padding: 0.5rem 1rem !important;
+    }
+    .chill-zone .sudoku .control .show-suggestion label{
+        width: 90px;
+        height: 90px;
+    }
+
+    .portfolio{
+        padding-bottom: 20%;
+    }
+}
+@media screen and (max-width:500px){
+    .wrapper-container{
+        margin: 1rem;
+    }
+    /* global styles */
+    .container{
+        padding: 20px !important;
+    }
+    /* title */
+    header .name{
+        top: 20px;
+    }
+    header .name .the{
+        font-size: 2.8rem;
+        margin-right: -1.5rem;
+    }
+    header .name .head-name{
+        font-size: 8rem;
+    }
+    header .name .sub-name{
+        font-size: 1.5rem;
+        margin-top: -1rem;
+        color: #ffefef;
+    }
+    header .name .tm{
+        font-size: 0.7rem;
+        padding: 1rem !important;
+        margin-left: -1rem;
+    }
+    header .internet{
+        left: 20px;
+    }
+    header .internet h1,
+    header .article-header h1{
+        font-size: 2.5rem;
+    }
+    header .internet p{
+        font-size: 1.3rem;
+        border-width: 3px;
+        margin-left: -1px;
+    }
+    header .article-header{
+        left: 20px;
+        bottom: 70px;
+        padding: 1.5rem;
+    }
+    header .article-header:after{
+        border-width: 3px;
+    }
+    header .article-header p{
+        font-size: 1.3rem;
+        width: 60%;
+    }
+    header .volume{
+        font-size: 1.3rem;
+        right: 30px;
+    }
+
+    .navigation.container{
+        min-height: 35rem !important;
+    }
+    .navigation .content{
+        width: 80%;
+        margin-left: 0;
+    }
+    .navigation .content span{
+        letter-spacing: 0px !important;
+    }
+    .navigation .content a{
+        font-size: 1.3rem;
+    }
+    .navigation .title span{
+        font-size: 6rem;
+    }
+
+    .team-message h2{
+        font-size: 4rem;
+    }
+    .team-message h2.first{
+        font-size: 4rem;
+    }
+    .team-message .msg{
+        margin-right: -5rem;
+        margin-bottom: -5rem !important;
+        bottom: 0;
+        width: 100%;
+    }
+    .team-message .chat{
+        margin-left: -10rem;
+        margin-top: -5rem !important;
+        width: 100%;
+        top:0 !important;
+    }
+    .team-message .msg{
+        width: 150%;
+        font-size: 1.3rem;
+    }
+    .team-message .chat .chat1,
+    .team-message .chat .chat2{
+        width: 120%;
+        font-size: 1.3rem;
+        margin: 1rem 0;
+    }
+    .team-message .chat .chat1 span{
+        right: -2.5rem;
+        bottom: -2.5rem;
+    }
+
+    .article .container,
+    .article .heading,
+    .article .bg{
+        min-height: 70vh !important;
+        padding: 0 !important;
+    }
+    .article .bg{
+        display: none;
+    }
+    .article .heading{
+        width: 28%;
+        padding: 20px !important;
+    }
+    .article .container{
+        width: 70% !important;
+        padding: 10px !important;
+        padding-right: 0 !important;
+    }
+    .article .heading h1{
+        font-size: 8rem !important;
+    }
+    .article .container h2{
+        font-size: 2.8rem !important;
+        font-weight: 900 !important;
+    }
+    .article .container p{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .article .container .paragraph{
+        font-size: 1.5rem;
+    }
+
+    footer h1{
+        font-size: 6rem;
+    }
+    footer .map iframe,
+    footer .map .gmap_canvas{
+        height: 250px !important;
+    }
+
+    .chill-zone .tik-tak-toe .board .square{
+        height: 100px;
+    }
+    .sudoku-board-cell{
+        padding: 0.3rem 1rem !important;
+    }
+    .sudoku-board-cell *{
+        line-height: 100% !important;
+    }
+    .chill-zone .wrapper-col:last-child span{
+        font-size: 10rem;
+    }
+    .chill-zone .container .row{
+        padding: 0 !important;
+        margin: 2rem 0 !important;
+        margin-bottom: 50px !important;
+    }
+    .chill-zone h1{
+        font-size: 3rem;
+    }
+
+    .portfolio .col-6 .logo{
+        width: 200px;
+    }
+}
+@media screen and (max-width:400px){
+    .team-message .chat .chat1,
+    .team-message .chat .chat2{
+        width: 140%;
+        font-size: 1.3rem;
+    }
+    .team-message .chat .chat1 span{
+        right: -1.5rem;
+        bottom: -2rem;
+    }
+    .team-message .chat .chat2 span{
+        left: -1.5rem;
+        bottom: -2rem;
+    }
+    .article .heading{
+        width: 20% !important;
+    }
+    .article .container{
+        width: 80% !important;
+        min-height: 80vh !important;
+    }
+    .article .heading h1{
+        font-size: 5rem !important;
+    }
+    .article .container h2{
+        font-size: 2.6rem !important;
+        font-weight: 900 !important;
+    }
+    .article .container p{
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .article .container .paragraph{
+        font-size: 1.5rem;
+    }
+
+    footer .container{
+        padding: 1.5rem !important;
+    }
+    footer h1{
+        font-size: 5rem;
+    }
+    footer .row .col p{
+        font-size: 13px !important;
+    }
+    footer .row .col h3{
+        font-size: 14px !important;
+    }
+
+    .chill-zone .tik-tak-toe .board .square{
+        height: 80px;
+    }
+    .chill-zone .tik-tak-toe button{
+        font-size: 1.2rem;
+    }
+    .sudoku-board-cell{
+        padding: 0.5rem !important;
+        border-width: 0.5px !important;
+    }
+    .chill-zone .wrapper-col:last-child span{
+        font-size: 8rem;
+    }
+    .chill-zone .sudoku .control .level h4,
+    .chill-zone .sudoku .control .show-suggestion h4,
+    .chill-zone .sudoku .control .other h4{
+        font-size: 1.2rem;
+    }
+    .chill-zone .sudoku .control .show-suggestion label{
+        width: 80%;
+        height: 50px;
+        overflow: hidden;
+        font-size: 1rem;
+    }
+}

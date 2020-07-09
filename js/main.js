@@ -89,6 +89,15 @@ $('.horizontal-slider').slick({
     focusOnSelect: true,
     vertical: true,
     verticalSwiping: true,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                vertical: false,
+                verticalSwiping: false,
+            }
+        }
+    ]
 });
 
 

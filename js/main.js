@@ -1,3 +1,12 @@
+//include pages
+$(function () {
+    var includes = $('[data-include]');
+    jQuery.each(includes, function () {
+        var file = 'include/' + $(this).data('include');
+        $(this).load(file);
+    });
+});
+
 // toggle drawer div
 $("#bars").on('click', function () {
     $("#drawer-nav").toggleClass("active");
@@ -7,7 +16,6 @@ $("#up").on('click', function () {
     $("#drawer-nav").toggleClass("active");
     $("#bars").toggleClass("close");
 })
-
 
 
 /*-------------------------------*/

@@ -81,6 +81,8 @@ a:focus{
     width: 90%;
     height: 30rem;
     border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
     overflow: hidden;
     position: relative;
     border: 1px solid rgba(0, 174, 255, 0.2);

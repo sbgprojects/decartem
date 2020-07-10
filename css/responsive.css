@@ -280,6 +280,8 @@
         width: 60%;
         height: 17rem !important;
         border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -webkit-border-radius: 2rem;
     }
     .video-box video{
         width: 100% !important;

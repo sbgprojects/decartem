@@ -160,6 +160,7 @@ header .internet p{
 header .internet p span{
     background: rgba(65, 65, 65, 0.5);
     padding: 0rem 1rem;
+    color: white;
 }
 /* article-header styling */
 header .article-header{

@@ -1,0 +1,99 @@
+<header>
+    <!-- ================================================================== -->
+    <!-- navbar starts -->
+    <!-- ================================================================== -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <div class="container p-0">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png" class="img-fluid" alt="">
+            </a>
+            <div class="navbar-nav ml-auto">
+                <div class="link-group d-flex">
+                    <a class="nav-item nav-link active" href="../">Home</a>
+                    <a class="nav-item nav-link" href="./decartemweb.html">Decartem Web</a>
+                    <a class="nav-item nav-link contact-us" href="./contactus.html">Contact Us</a>
+                </div>
+                <div class="nav-toggles d-flex">
+                    <a href="#" class="bars" id="bars">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid drawer-nav" id="drawer-nav">
+        <div class="container p-0">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-3 col-md-4 col-12">
+                    <h5>Products</h5>
+
+                    <ul>
+                        <a href="./assets/Virtuo Website Brochure.pdf">
+                            <li>Virtuo</li>
+                        </a>
+                        <a href="./comingsoon.html">
+                            <li>Teacho</li>
+                        </a>
+                        <a href="./comingsoon.html">
+                            <li>Attendo</li>
+                        </a>
+                        <a href="https://millo.in">
+                            <li>Millo</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-12">
+                    <h5>Services</h5>
+
+                    <ul>
+                        <a href="./decartemweb.html">
+                            <li>Decartem Web</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-12">
+                    <h5>Important Links</h5>
+
+                    <ul>
+                        <a href="#aboutus">
+                            <li>About Us</li>
+                        </a>
+                        <a href="#testimonials">
+                            <li>Testimonials</li>
+                        </a>
+                        <a href="#clients">
+                            <li>Our Clients</li>
+                        </a>
+                        <a href="#impact">
+                            <li>The Decartem Impact</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="up flex-center" id="up">
+            <img src="./assets/img/decartem-A.png" alt="">
+        </div>
+    </div>
+
+    <!-- ================================================================== -->
+    <!-- navbar end -->
+    <!-- ================================================================== -->
+</header>
+
+
+<script>
+    // toggle drawer div
+    $("#bars").on('click', function () {
+        $("#drawer-nav").toggleClass("active");
+        $("#bars").toggleClass("close");
+    })
+    $("#up").on('click', function () {
+        $("#drawer-nav").toggleClass("active");
+        $("#bars").toggleClass("close");
+    })
+
+</script>

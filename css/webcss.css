@@ -133,7 +133,8 @@ header .name .tm span{
 }
 /* internet issue start */
 header .internet{
-    color: white;
+    /* color: white; */
+    color: #616161;
     position: absolute;
     top: 42%;
     left: 100px;
@@ -149,7 +150,8 @@ header .internet h1{
 header .internet p{
     font-size: 2.4rem;
     line-height: 1.4;
-    border-left: 0.5rem solid var(--dark-color);
+    /* border-left: 0.5rem solid var(--dark-color); */
+    border-left: 0.5rem solid white;
     border-right: 0.5rem solid var(--primary-color);
     padding:  0 0.8rem;
     margin-top: 1rem;
@@ -161,7 +163,8 @@ header .internet p span{
 }
 /* article-header styling */
 header .article-header{
-    color: white;
+    /* color: white; */
+    color: #616161;
     position: absolute;
     left: 100px;
     bottom: 150px;
@@ -176,9 +179,12 @@ header .article-header:after{
     left: 0;
     width: 40px;
     height: 100%;
-    border-left: 5px solid var(--dark-color);
+    /* border-left: 5px solid var(--dark-color);
     border-top: 5px solid var(--dark-color);
-    border-bottom: 5px solid var(--dark-color);
+    border-bottom: 5px solid var(--dark-color); */
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
 }
 header .article-header h1{
     font-size: 5rem;
@@ -556,9 +562,6 @@ header .volume span{
 .chill-zone .wrapper .wrapper-col:first-child{
     width: 85%;
 }
-.chill-zone .wrapper .wrapper-col:last-child{
-    width: 15%;
-}
 .chill-zone .container{
     padding: 50px;
 }
@@ -706,9 +709,11 @@ header .volume span{
     padding: 2rem;
     cursor: pointer;
 }
-
-.chill-zone .wrapper-col:last-child span{
-    font-size: 15rem;   
+.chill-zone .wrapper .wrapper-col:last-child{
+    width: 10%;
+}
+.chill-zone .wrapper-col:last-child p{
+    font-size: 10rem;   
     font-family: var(--heading-font);
     color: var(--dark-color);
     transform: rotate(90deg);
@@ -723,16 +728,6 @@ header .volume span{
 }
 .portfolio .container{
     min-height: initial !important;
-}
-.portfolio:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    background-color: rgba(228, 228, 247,0.5);
-    clip-path: polygon(0 50%, 90% 10%, 90% 90%);
 }
 .portfolio .img-back{
     overflow: hidden;
@@ -755,6 +750,7 @@ header .volume span{
 }
 .portfolio .col-6 h2{
     font-family: var(--title-font);
+    color: var(--dark-color);
     font-size: 6rem;
 }
 .portfolio .col-6 h5{

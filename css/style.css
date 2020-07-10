@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 body, html{
-    min-height: 200vh;
+    /* min-height: 200vh; */
     font-family: var(--body-font);
     scroll-behavior: smooth;
     overflow-x: hidden;

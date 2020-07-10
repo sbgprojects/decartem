@@ -185,8 +185,8 @@
     .chill-zone .tik-tak-toe button{
         font-size: 1.5rem;
     }
-    .chill-zone .wrapper-col:last-child span{
-        font-size: 12rem;
+    .chill-zone .wrapper-col:last-child p{
+        font-size: 8rem;
     }
 }
 @media screen and (max-width:1100px){
@@ -971,8 +971,8 @@
     .sudoku-board-cell *{
         line-height: 100% !important;
     }
-    .chill-zone .wrapper-col:last-child span{
-        font-size: 10rem;
+    .chill-zone .wrapper-col:last-child p{
+        font-size: 7rem;
     }
     .chill-zone .container .row{
         padding: 0 !important;
@@ -1046,8 +1046,8 @@
         padding: 0.5rem !important;
         border-width: 0.5px !important;
     }
-    .chill-zone .wrapper-col:last-child span{
-        font-size: 8rem;
+    .chill-zone .wrapper-col:last-child p{
+        font-size: 5rem;
     }
     .chill-zone .sudoku .control .level h4,
     .chill-zone .sudoku .control .show-suggestion h4,

@@ -201,6 +201,9 @@
     }
 }
 @media screen and (max-width:768px){
+    .contactus-link{
+        display: block !important;
+    }
     .vision-mission{
         padding: 0 2%;
     }
